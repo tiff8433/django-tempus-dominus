@@ -11,6 +11,7 @@ from tempus_dominus import widgets
     forms.DateFieldForm,
     forms.TimeFieldForm,
     forms.DateTimeFieldForm,
+    forms.MinMaxDateFieldForm,
 ])
 def test_forms_render(form_class):
     """
